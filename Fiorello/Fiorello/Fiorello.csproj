@@ -1,0 +1,122 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Data\" />
+    <None Remove="ViewModels\" />
+    <None Remove="Views\Product\" />
+    <None Remove="Views\Contact\" />
+    <None Remove="Views\Shop\" />
+    <None Remove="Views\Cart\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Responses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Data\" />
+    <Folder Include="Views\Product\" />
+    <Folder Include="Views\Contact\" />
+    <Folder Include="Views\Shop\" />
+    <Folder Include="Views\Cart\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Responses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Shared\Components\Footer\Default.cshtml" />
+    <None Include="Views\Shared\Components\Header\Default.cshtml" />
+    <None Include="Views\Shared\Components\Slider\Default.cshtml" />
+    <None Include="wwwroot\admin\css\maps\style.css.map" />
+    <None Include="wwwroot\admin\fonts\.DS_Store" />
+    <None Include="wwwroot\admin\fonts\Roboto\.DS_Store" />
+    <None Include="wwwroot\admin\fonts\Roboto\Roboto-Black.woff2" />
+    <None Include="wwwroot\admin\fonts\Roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\admin\fonts\Roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\admin\fonts\Roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\admin\fonts\Roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\admin\images\.DS_Store" />
+    <None Include="wwwroot\admin\images\auth\.DS_Store" />
+    <None Include="wwwroot\admin\images\faces\.DS_Store" />
+    <None Include="wwwroot\admin\images\logo-mini.svg" />
+    <None Include="wwwroot\admin\images\logo.svg" />
+    <None Include="wwwroot\admin\js\.DS_Store" />
+    <None Include="wwwroot\admin\js\chart.js" />
+    <None Include="wwwroot\admin\js\Chart.min.js" />
+    <None Include="wwwroot\admin\js\dashboard.js" />
+    <None Include="wwwroot\admin\js\data-table.js" />
+    <None Include="wwwroot\admin\js\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\admin\js\documentation.js" />
+    <None Include="wwwroot\admin\js\file-upload.js" />
+    <None Include="wwwroot\admin\js\hoverable-collapse.js" />
+    <None Include="wwwroot\admin\js\jquery.dataTables.js" />
+    <None Include="wwwroot\admin\js\off-canvas.js" />
+    <None Include="wwwroot\admin\js\tabs.js" />
+    <None Include="wwwroot\admin\js\template.js" />
+    <None Include="wwwroot\admin\scss\.DS_Store" />
+    <None Include="wwwroot\admin\scss\components\.DS_Store" />
+    <None Include="wwwroot\admin\scss\components\plugin-overrides\_data-tables.scss" />
+    <None Include="wwwroot\admin\scss\components\_badges.scss" />
+    <None Include="wwwroot\admin\scss\components\_bootstrap-progress.scss" />
+    <None Include="wwwroot\admin\scss\components\_buttons.scss" />
+    <None Include="wwwroot\admin\scss\components\_cards.scss" />
+    <None Include="wwwroot\admin\scss\components\_checkbox-radio.scss" />
+    <None Include="wwwroot\admin\scss\components\_dropdown.scss" />
+    <None Include="wwwroot\admin\scss\components\_forms.scss" />
+    <None Include="wwwroot\admin\scss\components\_icons.scss" />
+    <None Include="wwwroot\admin\scss\components\_lists.scss" />
+    <None Include="wwwroot\admin\scss\components\_tables.scss" />
+    <None Include="wwwroot\admin\scss\landing-screens\_auth.scss" />
+    <None Include="wwwroot\admin\scss\mixins\.DS_Store" />
+    <None Include="wwwroot\admin\scss\mixins\_animation.scss" />
+    <None Include="wwwroot\admin\scss\mixins\_badges.scss" />
+    <None Include="wwwroot\admin\scss\mixins\_blockqoute.scss" />
+    <None Include="wwwroot\admin\scss\mixins\_buttons.scss" />
+    <None Include="wwwroot\admin\scss\mixins\_cards.scss" />
+    <None Include="wwwroot\admin\scss\mixins\_misc.scss" />
+    <None Include="wwwroot\admin\scss\style.scss" />
+    <None Include="wwwroot\admin\scss\_background.scss" />
+    <None Include="wwwroot\admin\scss\_demo.scss" />
+    <None Include="wwwroot\admin\scss\_fonts.scss" />
+    <None Include="wwwroot\admin\scss\_footer.scss" />
+    <None Include="wwwroot\admin\scss\_functions.scss" />
+    <None Include="wwwroot\admin\scss\_layouts.scss" />
+    <None Include="wwwroot\admin\scss\_misc.scss" />
+    <None Include="wwwroot\admin\scss\_navbar.scss" />
+    <None Include="wwwroot\admin\scss\_reset.scss" />
+    <None Include="wwwroot\admin\scss\_sidebar.scss" />
+    <None Include="wwwroot\admin\scss\_typography.scss" />
+    <None Include="wwwroot\admin\scss\_utilities.scss" />
+    <None Include="wwwroot\admin\scss\_variables.scss" />
+    <None Include="wwwroot\admin\scss\_vertical-wrapper.scss" />
+    <None Include="wwwroot\admin\vendors\.DS_Store" />
+    <None Include="wwwroot\admin\vendors\base\vendor.bundle.base.js" />
+    <None Include="wwwroot\admin\vendors\chart.js\Chart.min.js" />
+    <None Include="wwwroot\admin\vendors\datatables.net-bs4\dataTables.bootstrap4.js" />
+    <None Include="wwwroot\admin\vendors\datatables.net\jquery.dataTables.js" />
+    <None Include="wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.svg" />
+    <None Include="wwwroot\admin\vendors\mdi\fonts\materialdesignicons-webfont.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.13" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+  </ItemGroup>
+</Project>
